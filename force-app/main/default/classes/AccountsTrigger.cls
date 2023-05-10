@@ -26,7 +26,7 @@ public class AccountExporter {
         // Set up the HTTP request
         Http http = new Http();
         HttpRequest request = new HttpRequest();
-        request.setEndpoint('http://localhost:3000/api/business_request');
+        request.setEndpoint('https//colorset.co/api/business_request');
         request.setMethod('POST');
         request.setHeader('Content-Type', 'application/json');
         request.setBody(jsonData);
